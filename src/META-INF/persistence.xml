@@ -5,12 +5,14 @@
     <class>jpa.Customer</class>
     <class>jpa.Dog</class>
     <class>jpa.User</class>
+    <class>jpa2.manytoone.Department</class>
+    <class>jpa2.manytoone.Employee</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value="P@ssw0rd"/>
-      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create-or-extend-tables"/>
     </properties>
   </persistence-unit>
 </persistence>
