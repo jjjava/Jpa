@@ -5,6 +5,12 @@
     <class>jpa.Customer</class>
     <class>jpa.Dog</class>
     <class>jpa.User</class>
+    <class>jpa2.manytoone.Department</class>
+    <class>jpa2.manytoone.Employee</class>
+    <class>jpa3.Endereco</class>
+    <class>jpa3.Estado</class>
+    <class>jpa3.Municipio</class>
+    <class>jpa3.Pessoa</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
