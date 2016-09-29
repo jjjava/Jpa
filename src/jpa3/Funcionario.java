@@ -20,12 +20,11 @@ import javax.persistence.PrimaryKeyJoinColumn;
 @PrimaryKeyJoinColumn(name = "ID_PESSOA")
 public class Funcionario extends Pessoa {
 
-    
     @Column(name = "ID_FUNCIONARIO")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String matricula;
-
 
     public String getMatricula() {
         return matricula;
